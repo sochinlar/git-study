@@ -9,6 +9,7 @@ public class IndexController {
     @RequestMapping("/")
     @ResponseBody
     public Object index(){
+        System.out.println("test delete branch");
         return "welcome to git-study";
     }
 }
