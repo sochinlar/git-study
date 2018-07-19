@@ -10,7 +10,6 @@ import java.util.List;
 public class ImageTest {
     public static void main(String[] args)throws Exception{
         OperateImage imageObj = new OperateImage();  
-          
         String srcPath = "C:\\Users\\Administrator\\Desktop\\社保.jpg";
         String toPath = "C:\\Users\\Administrator\\Desktop\\社保1.jpg";
         imageObj.resizeImage(srcPath, toPath, 413, 626);//按指定的长宽重置图形大小
